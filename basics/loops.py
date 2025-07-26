@@ -42,9 +42,19 @@ print('Largest:', largest)
 print('Sum:', sum)
 
 
+
 found = False
 for num in [1, -75, -6, 91 , 88, 67]:
     if num == 91:
         found = True
         print('found:', num)
 
+
+smallest = None #Like no value - called as Flage value
+print('Before')
+for val in [1, 3, 55, 7, 78, 99]:
+    if smallest is None:
+        smallest = val
+    elif val < smallest:
+        smallest = val
+print('After', smallest)
