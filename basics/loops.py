@@ -40,3 +40,11 @@ for num in [1, -75, -6, 91 , 88, 67]:
         largest = num
 print('Largest:', largest)
 print('Sum:', sum)
+
+
+found = False
+for num in [1, -75, -6, 91 , 88, 67]:
+    if num == 91:
+        found = True
+        print('found:', num)
+
