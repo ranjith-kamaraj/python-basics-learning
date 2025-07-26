@@ -1,0 +1,1 @@
+In your program, it might not seem like it, but using smart data structures can make solving problems much easier than using complicated control flow. Control flow is easy to see, but data structures work in the background. If you design good data structures, your code becomes simpler. That’s why learning data structures is important, even if you haven’t used them much yet.
