@@ -13,6 +13,8 @@ PyPI - the python package index
      - Find the packages on this site
 Yelp.com - Just go through it - Google's web crawler
 
+Kaggle - where to do data science projects
+
 Courseera:
 Programming for Everybody (Getting Started with Python) - University of Michigan
 
