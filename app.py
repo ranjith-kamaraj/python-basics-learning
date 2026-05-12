@@ -19,3 +19,18 @@ for file in path.glob('*'):
     print(file)
 
 
+
+import sys
+
+# Display all command line arguments
+print("Script name:", sys.argv[0])
+print("All arguments:", sys.argv)
+
+# Check if arguments are provided
+if len(sys.argv) > 1:
+  name = sys.argv[1]
+  print(f"Hello, {name}!")
+else:
+  print("No name provided. Usage: python script.py <name>")
+
+
